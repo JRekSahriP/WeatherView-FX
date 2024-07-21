@@ -1,0 +1,47 @@
+*{
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 0, 0, 1, 1);
+}
+AnchorPane{
+	-fx-background: linear-gradient(to top, rgb(51,204,255,0.4),rgb(51,204,255,0.5), rgb(51,204,255,0.8));
+}
+
+#TextInput{
+	-fx-text-box-border: none;
+	
+	-fx-background-color: linear-gradient(to top, rgb(255,255,255,0.4), rgb(0,0,0,0));
+	-fx-background-radius:5px 5px 0px 0px;
+	
+	-fx-border-width:2px;
+	-fx-border-color: transparent transparent rgb(255,255,255,0.6) transparent;
+}
+
+#SearchButton{
+	-fx-text-fill: black;
+	-fx-background-color:rgb(255,255,255,0.8);
+	-fx-background-radius:5px;
+}
+
+
+/*
+
+AnchorPane{
+	-fx-background: linear-gradient(to top, white, white, rgb(51,204,255));
+}
+
+#TextInput{
+	-fx-text-box-border: none;
+	-fx-text-fill: white;
+	-fx-background-color: linear-gradient(to top, rgb(255,255,255,0.4), rgb(0,0,0,0));
+	-fx-background-radius:5px 5px 0px 0px;
+	
+	-fx-border-width:2px;
+	-fx-border-color: transparent transparent rgb(255,255,255,0.6) transparent;
+}
+
+#SearchButton{
+	-fx-background-color:rgb(255,255,255,0.8);
+	-fx-background-radius:5px;
+}
+
+*/
